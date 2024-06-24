@@ -1,0 +1,14 @@
+.header{
+    margin-bottom: 2rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.subtitle{
+    padding: 5px 5px;
+    background-color: rgb(238, 237, 225);
+    width: fit-content;
+}

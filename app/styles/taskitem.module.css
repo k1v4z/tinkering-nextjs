@@ -1,0 +1,45 @@
+.task__item td {
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 1px rgb(226, 226, 204);
+    cursor: pointer;
+}
+
+.task__item {
+    cursor: pointer;
+}
+
+.task__item:hover {
+    background-color: rgb(238, 240, 240);
+}
+
+.editTask {
+    background-color: #007BFF; /* Change this to your desired color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.editTask:hover {
+    background-color: #0056b3; /* Change this to a darker shade for hover effect */
+}
+
+.deleteTask {
+    background-color: #DC3545; /* Change this to your desired color */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+}
+
+.deleteTask:hover {
+    background-color: #c82333; /* Change this to a darker shade for hover effect */
+}
+
+
+

@@ -1,0 +1,17 @@
+.addtask_btn{
+    padding: 8px 8px;
+    color: rgb(7, 144, 223);
+    background-color: white;
+    border: solid 1px rgb(7, 144, 223);
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addtask_btn:hover{
+    background-color: rgb(7, 144, 223) ;
+    color: white;
+}

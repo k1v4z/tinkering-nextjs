@@ -1,0 +1,72 @@
+.popup_container{
+    position: fixed;
+    width: 50%;
+    height: 35%;
+    top: 10rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 20px 20px;
+    border: solid 1px rgb(218, 218, 165);
+    border-radius: 5px;
+    background-color: rgb(247, 248, 248);
+    transform: translate(50%);
+}
+
+.popup_container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.popup_content{
+    padding: 5px 5px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.subtitle{
+    background-color: rgb(213, 215, 218);
+    padding: 8px 8px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.input__task{
+   border: solid 0.5px;
+   margin-left: -1px;
+   border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.popup_footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.close_form_btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: rgb(88, 88, 87);
+    color: white;
+    cursor: pointer;
+}
+
+.save_btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:rgb(96, 142, 226) ;
+    color: white;
+}
+
+
