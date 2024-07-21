@@ -115,6 +115,7 @@ const UserTable = ({users,metadata, onPageChange, pageSelected, onLimitChange}: 
 
   return (
     <div>
+      {/* 1 */}
       <div>Choose page limit: </div>
       <div> 
         <select name='selectedOption' onChange={(e)=> onLimitChange(Number(e.target.value))}>
