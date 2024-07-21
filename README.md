@@ -1,6 +1,4 @@
-Lưu ý !!!: Cái này chỉ làm để phục vụ mục đích học những library và kiến thức mới, có những chỗ lười phân components :v với code hơi smell tý
-<br/>
-Note !!!: This only make for learning new library and knowledge, i don't seperate components because of my lazy and code smell a bit
+Note !!!: This only make for learning new library and knowledge. This project isn't too big so i don't seperate components
 <br/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
