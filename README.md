@@ -1,6 +1,6 @@
 Lưu ý!: Cái này chỉ làm để phục vụ mục đích học tập, có những chỗ lười phân components :v với code hơi smell tý
 Note!: This only make for learning, i don't seperate components because of my lazy and code smell a bit
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
