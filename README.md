@@ -1,4 +1,4 @@
-Note !!!: This only make for learning new library and knowledge. This project isn't too big so i don't seperate components
+Note !!!: This only make for learning new library and knowledge. This project isn't too big so i sometime don't seperate components
 <br/>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
