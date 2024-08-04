@@ -54,8 +54,9 @@ export async function POST(
         try {
             const user = await prisma.user.create({
                 data: {
-                    email: body.email,
-                    name: body.name
+                    username: body.username,
+                    password: body.password,
+                    email: body.username + '123@gmail.com' //form register ko thiết kế chuẩn nên để tạm email như này :v
                 }
             })
 
@@ -110,13 +111,17 @@ export async function GET(
         )
     }
 
+    //phân trang 
     const users = await prisma.user.findMany({
         skip: (page - 1) * limit,
         take: limit
     })
 
+    const entryUser = request.headers.get('user-payload')
+    console.log(entryUser);
+
     return NextResponse.json(
-        { users, metadata: { totalPages, limit, totalUser }, message: "Get user successfully" },
+        { users, metadata: { totalPages, limit, totalUser }, message: "Get user successfully", entryUser: entryUser },
         { status: 200, statusText: "Get user successfully" }
     )
 
